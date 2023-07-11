@@ -100,14 +100,16 @@ margin-bottom: 20px;
     padding: 20px;
     padding-bottom: 0;
 }
-.common-cl h5{
+.common-cl a{
+    display: block;
 margin-top: 10px;
 color: #584d4d;
 text-align: center;
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+}
+.common-cl a:hover{
+color: #001aff;
 }
 .div-one{
 background: rgba(167, 33, 98, 0.15);
