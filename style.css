@@ -165,6 +165,9 @@ background: rgba(71, 125, 17, 0.15);
     align-items: center;
 }
 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25%;
     height: 50vh;
     padding: 20px;
