@@ -1,0 +1,326 @@
+/* universal selctor style */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* header section style start */
+#header{
+    max-width: 100%;
+    height: 500px;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 150px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+}
+/* header description start */
+.header-description{
+    width: 50%;
+}
+.header-description-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.header-description-info{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: justify;
+margin-bottom: 20px;
+}
+.header-description-btn{
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+}
+/* header description end */
+/* header  image start*/
+.header-image{
+    width: 50%;
+    text-align: center;
+}
+.header-img{
+    width: 400px;
+}
+/* header section style end */
+/* main start */
+/* image section start */
+.img-sec{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.img-sec-info{
+    padding: 10px;
+}
+.img-sec-info-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.img-sec-info-des{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.image-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items:center;
+    margin-top: 30px;
+}
+/* common class used */
+.common-cl{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; 
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.common-cl h5{
+margin-top: 10px;
+color: #584d4d;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.div-one{
+background: rgba(167, 33, 98, 0.15);
+}
+.div-two{
+background: rgba(5, 151, 160, 0.15);
+}
+.div-three{
+background: rgba(71, 125, 17, 0.15);
+} 
+.image{
+    width: 250px;
+    height: 300px;
+}
+/* image section end */
+/* flower section start */
+.flower-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 80%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.flower-sec-img{
+    text-align: center;
+}
+.flower-sec-img img{
+    width: 50px;
+    height: 50px;
+}
+.flower-sec-img h4{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* flower section end */
+/* section3 start */
+#section3{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 25px 100px;
+
+}
+.sec-des {
+ width: 50%;
+ text-align: center;
+
+}
+.sec-des h1{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.sec-des p{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+   }
+.sec-img-left{
+    width: 50%;
+    text-align: left;
+}
+.sec-img{
+    width: 500px;
+    height: 500px;
+}
+/* section end */
+/* instagram-section start */
+#instagram-section{
+    width: 80%;
+    margin: 0 auto;
+padding: 0 100px;
+margin-top: 100px;
+}
+.ins-head{
+    text-align: center;
+}
+.ins-head h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.ins-head p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+.ins-img-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.ins-img{
+    width: 250px;
+}
+/* instagram section end */
+/* subscribe section start */
+#subscribe-section{
+    background-image: url('bg/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.sub-sec-des{
+    margin: 20px;
+}
+.sub-sec-des h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+.sub-sec-des p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sub-sec-in input{
+    border-radius: 8px;
+background: #FFF;
+padding: 20px 200px 20px 20px;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+margin-right: 20px;
+border: none;
+}
+/* subscribe-section end */
+/* main end */
+/* footer start */
+#footer{
+    max-width: 100%;
+    margin-top: 130px;
+    height: 300px;
+    background: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#footer h1{
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.flower-span{
+color: #E55473;
+}
+#footer p{
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+    }
+#footer h6{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* footer end */
+
